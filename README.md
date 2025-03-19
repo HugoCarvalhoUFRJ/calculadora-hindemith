@@ -1,1 +1,24 @@
 # calculadora-hindemith
+
+1) Entre no [https://colab.research.google.com/](Google Colab), e clique no botão azul `+ Novo notebook`. Esteja logado em sua conta Google, pois esse notebook poderá ser acessado novamente.
+
+2) Abra o arquivo que estou enviando, HINDEMITH_HUGO.py (é um arquivo de texto, pode abri-lo no Bloco de Notas mesmo), e cole na célula que tem um botão de Play do lado esquerdo.
+
+3) Clique no botão de Play, e quando aparecer um check verde ao lado dele, deu tudo certo.
+
+4) Abaixo do bloco com esse código, coloque o mouse na metade da parte inferior desse bloco para aparecer um menu, e clique em + Código. Irá aparecer uma nova célula de código abaixo.
+
+5) Para verificar o tipo de um acorde, use a seguinte função: hindemith(['C4', 'D4', 'D#4', 'Gb4']), e clique no botão de Play. O resultado irá aparecer imediatamente abaixo do seu código.
+Obs.: O programa aceita notas com sustenidos e com bemóis, desde C0 até B10. Preste atenção à sintaxe, qualquer parênteses, colchete ou aspas mal colocado dará erro.
+
+6) Você pode criar quantas células de código quiser, então você pode rodar essa mesma função num bloco abaixo, por exemplo.
+
+7) Para gerar acordes de determinado tipo, use: gera_hindemith(tipo = 'IV.2', mais_grave = 'C4', mais_aguda = 'C5', cardinalidade = 5, tentativas = 100). Assim, você irá gerar acordes de determinado tipo, com a nota mais grave prescrita, e com a cardinalidade prescrita. O programa funciona na força bruta, então ele gera tentativas acordes aleatórios no âmbito que você deseja, e verifica se é do tipo que você quer. Como é um sorteio, não necessariamente a mais_aguda estará no seu acorde, mas a mais_grave sempre estará.
+
+8) Apesar da função hindemith lidar com enarmonias, a função gera_hindemith não o faz. Portanto, ela sempre irá retornar os acordes com bemol.
+
+9) Rodar a função gera_hindemith diversas vezes irá gerar resultados diferentes! Se a sua geração não retornou nenhum acorde, tente novamente ou aumente o número de "tentativas".
+
+10) Se você ficar muito tempo sem usar essa janela do Google Colab, você será desconectado do servidor. Para reativar a sua seção, você precisará rodar o primeiro bloco de código, com todas as funções, novamente.
+
+11) Esse notebook ficará salvo em sua conta do Google. Por padrão, ele terá um nome "UntitlecNUMERO.ipynb", mas você pode alterá-lo no cabeçalho da página, e sempre que entrar no Google Colab, poderá acessá-lo novamente.
