@@ -4,7 +4,9 @@ Código desenvolvido a pedido do [Prof. Liduino Pitombeira](https://pitombeira.c
 
 1) Entre no [Google Colab](https://colab.research.google.com/), e clique no botão azul `+ Novo notebook`. Esteja logado em sua conta Google, pois esse notebook poderá ser acessado novamente.
 
-2) Abra o arquivo `HINDEMITH.py` (é um arquivo de texto, pode abri-lo no Bloco de Notas mesmo), e cole na célula que tem um botão de `Play` do lado esquerdo.
+2) Na célula que tem um botão de `Play` do lado esquerdo, copie e cole as duas linhas de código abaixo:
+`!wget https://raw.githubusercontent.com/HugoCarvalhoUFRJ/calculadora-hindemith/refs/heads/main/HINDEMITH.py`
+`from HINDEMITH import *`
 
 3) Clique no botão de `Play`, e quando aparecer um *check* verde ao lado dele, deu tudo certo.
 
